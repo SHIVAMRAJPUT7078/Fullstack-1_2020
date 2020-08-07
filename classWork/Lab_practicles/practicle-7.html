@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        .container {
+            height: 100vh;
+            width: 50%;
+            border: solid 6px rgb(245, 243, 243);
+            border-style:ridge;
+            margin: 5px auto;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .header {
+            width: 98%;
+            height: 6%;
+            background: rgb(165, 158, 158);
+            margin: 1%;
+            margin-bottom: 0%;
+            
+        }
+
+        .footer {
+            width: 98%;
+            height: 6%;
+            background: rgb(53, 169, 236);
+            margin: 5px 1% 0px 1%;
+            
+        }
+
+        .content {
+            height: 83%;
+            /* width: %; */
+            /* border: solid; */
+        }
+
+        .content .section-1 {
+            height: 23%;
+            width: 98%;
+            margin: 1%;
+            background: rgb(175, 210, 233);
+            
+        }
+
+        .content .section-2 {
+            /* background: rgb(75, 62, 62); */
+            width: 98%;
+            height: 15%;
+            margin: 0px 1%;
+            display: flex;
+            align-items:center;
+            justify-content:space-between;
+        }
+
+         #heading {
+            text-align: center;
+            margin-top: 10 px;
+         
+        }
+
+        .content .section-2 .circle {
+            width: 15%;
+            height: 100%;
+            background: rgb(182, 182, 36);
+            border-radius: 100%;
+            /* margin: 0px 5px; */
+            /* float: left; */
+
+        }
+
+        .content .section-3 {
+            /* background: rgb(79, 138, 206); */
+            height: 23%;
+            margin: 1%;
+            width: 98%;
+            display: flex;
+        }
+        #left{
+            width: 49%;
+            height: 95%;
+            background: yellowgreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            /* margin:0px 2%; */
+        }
+        #right{
+            width: 50%;
+            height: 95%;
+            margin-left: 1%;
+            
+            
+        }
+        #centre{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .artical-1{
+            height: 31%;
+            width: 100%;
+            margin-bottom: 3px;
+            background: rgb(185, 136, 136);;
+        }
+        .artical-2{
+            height: 31%;
+            width: 100%;
+            margin-bottom: 3px;
+            background: rgb(185, 136, 136);
+        }
+        .artical-3{
+            height: 31%;
+            width: 100%;
+            margin-top: 2px;
+            background: rgb(185, 136, 136);;
+        }
+        .artical-4{
+            height: 22%;
+            width: 100%;
+            margin-bottom: 1px;
+            background: cyan;
+        }
+        .content .section-4 .box {
+            width: 18%;
+            height: 95%;
+            background: rgb(238, 19, 19);
+            /* border-radius: 10%; */
+            /* margin: 0px 15px; */
+            
+            /* margin: 0px 5px; */
+            /* float: left; */
+
+        }
+        
+        .content .section-4 {
+            /* background: rgb(175, 181, 187); */
+            height: 15%;
+            margin: 1%;
+            width: 98%;
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            justify-content:space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header" id="centre">Header</div>
+        <div class="content">
+            <div class="section-1" id="centre"> Banner </div>
+            <span >
+                <p id="heading">Section-1</p>
+            </span>
+            <div class="section-2">
+                
+                </span>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                
+            </div>
+            <span>
+                <p id="heading">Section-2</p>
+            </span>
+            <div class="section-3">
+                <div id="left">Main Content</div>
+                <div id="right">
+                    <div class="artical-1" id="centre">artical-1</div>
+                    <div class="artical-2" id="centre">artical-2</div>
+                    <div class="artical-3" id="centre">artical-3</div>
+                </div>
+            </div>
+            <span >
+                <p id="heading">Section-3</p>
+            </span>
+            <div class="section-4">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <span >
+                <p id="heading">Section-4</p>
+            </span>
+
+        </div>
+        <div class="footer" id="centre">Footer</div>
+    </div>
+</body>
+
+</html>
