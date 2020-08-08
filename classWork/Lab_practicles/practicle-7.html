@@ -14,193 +14,163 @@
         }
 
         .container {
-            height: 100vh;
-            width: 50%;
-            border: solid 6px rgb(245, 243, 243);
-            border-style:ridge;
-            margin: 5px auto;
+            width: 95%;
+            border: solid 2px salmon;
+            margin: auto;
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         .header {
+            height: 15vh;
             width: 98%;
-            height: 6%;
-            background: rgb(165, 158, 158);
             margin: 1%;
-            margin-bottom: 0%;
-            
+            background: rgb(235, 216, 191);
         }
 
         .footer {
-            width: 98%;
-            height: 6%;
-            background: rgb(53, 169, 236);
-            margin: 5px 1% 0px 1%;
-            
-        }
-
-        .content {
-            height: 83%;
-            /* width: %; */
-            /* border: solid; */
-        }
-
-        .content .section-1 {
-            height: 23%;
+            height: 15vh;
             width: 98%;
             margin: 1%;
-            background: rgb(175, 210, 233);
-            
+            background: rgb(235, 216, 191);
         }
 
-        .content .section-2 {
-            /* background: rgb(75, 62, 62); */
+        .banner {
+            height: 100vh;
             width: 98%;
-            height: 15%;
-            margin: 0px 1%;
-            display: flex;
-            align-items:center;
-            justify-content:space-between;
+            margin: 1%;
+            background: rgb(179, 164, 143);
         }
 
-         #heading {
+        .section-1 {
+            height: 60vh;
+            width: 100%;
+        }
+
+        .section-1 p {
             text-align: center;
-            margin-top: 10 px;
-         
+            background: yellow;
+            /* margin: 1% 0px; */
         }
 
-        .content .section-2 .circle {
-            width: 15%;
+        .c {
+            
+            width: 100%;
             height: 100%;
-            background: rgb(182, 182, 36);
-            border-radius: 100%;
-            /* margin: 0px 5px; */
-            /* float: left; */
-
-        }
-
-        .content .section-3 {
-            /* background: rgb(79, 138, 206); */
-            height: 23%;
-            margin: 1%;
-            width: 98%;
             display: flex;
+            justify-content:space-around;
+            align-items: center;
+          
+
         }
-        #left{
+
+        #circle {
+            width: 23%;
+            height: 75%;
+            background: rgb(241, 187, 10);
+            border-radius: 50%;
+            
+
+        }
+
+        .section-2 {
+            height: 100vh;
+            width: 98%;
+            margin: 1%;
+            /* background: red; */
+        }
+
+        .left {
             width: 49%;
-            height: 95%;
-            background: yellowgreen;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-            /* margin:0px 2%; */
+            height: 86.5vh;
+            margin-top:3%;
+            background: rgb(135, 126, 145);
+            float: left;
+            /* margin: auto; */
         }
-        #right{
-            width: 50%;
-            height: 95%;
-            margin-left: 1%;
-            
-            
+
+        .right {
+            width: 49%;
+            height: 90vh;
+            margin-top:2%;
+          
+            float: right
         }
-        #centre{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-        }
-        .artical-1{
+
+        #article {
+            width: 96%;
             height: 31%;
-            width: 100%;
-            margin-bottom: 3px;
-            background: rgb(185, 136, 136);;
+            margin: 2%;
+
+            background: chartreuse;
         }
-        .artical-2{
-            height: 31%;
+
+        .section-3 {
+            height: 74vh;
             width: 100%;
-            margin-bottom: 3px;
-            background: rgb(185, 136, 136);
-        }
-        .artical-3{
-            height: 31%;
-            width: 100%;
-            margin-top: 2px;
-            background: rgb(185, 136, 136);;
-        }
-        .artical-4{
-            height: 22%;
-            width: 100%;
-            margin-bottom: 1px;
-            background: cyan;
-        }
-        .content .section-4 .box {
-            width: 18%;
-            height: 95%;
-            background: rgb(238, 19, 19);
-            /* border-radius: 10%; */
-            /* margin: 0px 15px; */
-            
-            /* margin: 0px 5px; */
-            /* float: left; */
+            /* margin: 1%; */
+            /* background: red; */
 
         }
-        
-        .content .section-4 {
-            /* background: rgb(175, 181, 187); */
-            height: 15%;
-            margin: 1%;
-            width: 98%;
-            display: flex;
-            justify-content: center;
-            /* align-items: center; */
-            justify-content:space-between;
+        /* h2{
+            background: darkcyan;
+        } */
+
+        .box {
+            width: 23%;
+            height: 75%;
+            background: rgb(198, 228, 124);
+            margin-bottom: 5%;
+            /* position: absolute;
+            top: 0px; */
+            /* border-radius: 50%; */
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-        <div class="header" id="centre">Header</div>
-        <div class="content">
-            <div class="section-1" id="centre"> Banner </div>
-            <span >
-                <p id="heading">Section-1</p>
-            </span>
-            <div class="section-2">
-                
-                </span>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                <div class="circle"></div>
-                
-            </div>
-            <span>
-                <p id="heading">Section-2</p>
-            </span>
-            <div class="section-3">
-                <div id="left">Main Content</div>
-                <div id="right">
-                    <div class="artical-1" id="centre">artical-1</div>
-                    <div class="artical-2" id="centre">artical-2</div>
-                    <div class="artical-3" id="centre">artical-3</div>
-                </div>
-            </div>
-            <span >
-                <p id="heading">Section-3</p>
-            </span>
-            <div class="section-4">
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-                <div class="box"></div>
-            </div>
-            <span >
-                <p id="heading">Section-4</p>
-            </span>
+        <div class="header center">Header</div>
+        <div class="banner center">Banner</div>
+        <div class="section-1">
+            <!-- <p>Section-1</p> -->
+            <h2 class="center">Section-1</h2>
 
+            <div class="c">
+                <div id="circle"></div>
+                <div id="circle"></div>
+                <div id="circle"></div>
+                <div id="circle"></div>
+            </div>
         </div>
-        <div class="footer" id="centre">Footer</div>
+        <div class="section-2">
+            <!-- <p>Section-2</p> -->
+            <h2 class="center">Section-2</h2>
+            <div class="left center">Main Content</div>
+            <div class="right ">
+                <div id="article" class="center">artical-1</div>
+                <div id="article" class="center">artical-2</div>
+                <div id="article" class="center">artical-3</div>
+            </div>
+        </div>
+        <div class="section-3">
+            <!-- <p>Section-3</p> -->
+            <h2 class="center">Section-3</h2>
+            <div class="c">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        </div>
+        <h2 class="center">Section-4</h2>
+        <div class="footer center">Footer</div>
     </div>
 </body>
 
